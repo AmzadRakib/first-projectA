@@ -4,14 +4,17 @@ body {
 }
 
 .flexible-container {
+    margin: 100px 100px;
+}
+
+#mission-outline-flex {
     display: flex;
-    margin-bottom: 150px;
 }
 
 .mission-outline {
     width: 50%;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .link-buttn {
@@ -36,4 +39,48 @@ body {
 
 span {
     color: orange;
+}
+
+#mission-explore-flex {
+    display: flex;
+}
+
+#explore-header {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.mission-explore {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mission {
+    width: 33%;
+    background-color: #d3eaf2;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#vission {
+    width: 33%;
+    background-color: #7f8c8d;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#goal {
+    width: 33%;
+    background-color: #f7f1e3;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.mission-explore img {
+    width: 50%;
 }
