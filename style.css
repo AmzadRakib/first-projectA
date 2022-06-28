@@ -45,7 +45,7 @@ span {
     display: flex;
 }
 
-#explore-header {
+.explore-header {
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
@@ -83,4 +83,23 @@ span {
 
 .mission-explore img {
     width: 50%;
+}
+
+#mission-grownup-flex {
+    display: flex;
+}
+
+.mission-grownup {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#mission-grownup-position {
+    margin-top: 20px;
+}
+
+.mission-grownup img {
+    width: 90%;
 }
