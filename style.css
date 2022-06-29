@@ -52,7 +52,7 @@ span {
 }
 
 .mission-explore {
-    width: 100%;
+    width: 33%;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -90,7 +90,7 @@ span {
 }
 
 .mission-grownup {
-    width: 100%;
+    width: 50%;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -102,4 +102,49 @@ span {
 
 .mission-grownup img {
     width: 90%;
+}
+
+#mission-community-flex {
+    display: flex;
+}
+
+.tag-line {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mission-community {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.mission-community img {
+    width: 80%;
+}
+
+#mission-bonus-flex {
+    display: flex;
+}
+
+.mission-bonus {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mission-bonus img {
+    width: 100%;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer-area {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
